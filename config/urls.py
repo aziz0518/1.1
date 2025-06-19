@@ -8,7 +8,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView
 from django.http import HttpResponse
 
 def home_view(request):
-    return HttpResponse("Bosh sahifa! sizdi dasturingiz ishlavoti 😂😂")
+    return HttpResponse("Bosh sahifa! sizdi dasturingiz ishlayabdi")
 
 
 urlpatterns = [
